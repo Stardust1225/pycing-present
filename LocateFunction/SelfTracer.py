@@ -14,8 +14,8 @@ class TracerRecorder:
         self.__start_record = False
 
     def self_tracer(self, frame, event, arg):
-        # if self.project not in frame.f_code.co_filename:
-        #     return None
+        if self.project not in frame.f_code.co_filename:
+            return None
 
         if '__init__' in frame.f_code.co_filename:
             return None

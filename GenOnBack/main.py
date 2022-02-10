@@ -41,7 +41,7 @@ if __name__ == '__main__':
     if not os.path.exists(out_path):
         os.mkdir(out_path)
 
-    pool = multiprocessing.Pool(6)
+    pool = multiprocessing.Pool(8)
 
     func_result = []
 

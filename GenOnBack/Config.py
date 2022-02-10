@@ -6,9 +6,9 @@ str_length = 30
 object_length = 5
 built_in_types = ['str', 'float', 'bool', 'complex', 'int', 'bytes', 'NoneType', 'list', 'set', 'dict', 'tuple']
 
-num_loop = 400
+num_loop = 1000
 num_explore_top = 400
 num_line_per_file = 20000
 num_extend_one_cond = 3
-num_extend_one_cond_random = 2
+num_extend_one_cond_random = 1
 num_split_file = 5
